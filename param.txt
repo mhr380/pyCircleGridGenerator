@@ -1,0 +1,20 @@
+{
+	"savefilepath":		"./calibChart.pdf",
+
+	"#comment":			"set x larger",
+	"num_x":			8,
+	"num_y":			5,
+
+	"#comment":			"set the paper size in [mm] as integer. (cf. A4: 297mm x 210mm)",
+	"paper_x":			297,
+	"paper_y":			210,
+	
+	"#comment":			"set interval as [mm]",
+	"interval":			30,
+
+	"#comment":			"If strings overlap on the circle, change this offset param[mm]",
+	"stringoffset":		20,
+
+	"#comment":			"0: symmetry circle grid, 1: assymentry circle grid",
+	"gridType":			"1"
+}
