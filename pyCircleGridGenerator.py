@@ -28,7 +28,7 @@ strdata += str(num_x) + "x" + str(num_y) + " grids"
 pdfFile.drawString(string_offset * mm, string_offset * mm, strdata)
 
 # align grids center
-chart_len_x = interval * (num_x - 1) + radius 
+chart_len_x = interval * (num_x - 1) + radius * 1.5 
 chart_len_y = interval * (num_y - 1) + radius 
 
 offset_x =  ( paper_x - chart_len_x ) / 2.0
